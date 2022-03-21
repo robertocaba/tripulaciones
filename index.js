@@ -17,5 +17,7 @@ app.use("/users", require("./routes/users"));
 app.use("/posts", require("./routes/posts"));
 app.use("/comments", require("./routes/comments"));
 app.use("/companys", require("./routes/companys"));
+app.use('/retos', require('./routes/retos'));
+
 
 app.listen(PORT, () => console.log(`Servidor levantado en el puerto ${PORT}`));
